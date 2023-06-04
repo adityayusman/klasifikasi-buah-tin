@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Klasifikasi Kematangan Buah Tin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtHome">Aplikasi ini merupakan aplikasi klasifikasi kematangan buah tin menggunakan Convolutional Neural Network. Aplikasi dikembangkan dalam rangka untuk memenuhi mata kuliah skripsi.</string>
+
+    <string name="title_home">Klasifikasi Kematangan Buah Tin Menggunakan Convolutional Neural Network (CNN) Berbasis Android</string>
+    <string name="question1_home">Klasifikasi Kematangan Buah Tin Menggunakan Convolutional Neural Network (CNN) Berbasis Android</string>
+    <string name="answer1_home">FRC (Fig Ripeness Checker) adalah sebutan dari aplikasi berbasis android untuk melakukan klasifikasi kematangan buah Tin dalam...</string>
+    <string name="question2_home">Bagaimana FRC bekerja?</string>
+    <string name="answer2_home">FRC (Fig Ripeness Checker) adalah sebutan dari aplikasi berbasis android untuk melakukan klasifikasi kematangan buah Tin dalam rangka penelitian...</string>
+    <string name="question3_home">Bagaimana cara menggunakan FRC?</string>
+    <string name="answer3_home">FRC (Fig Ripeness Checker) adalah sebutan dari aplikasi berbasis android untuk melakukan klasifikasi kematangan buah Tin dalam rangka penelitian...</string>
+    <string name="txtHomeMenu">Home</string>
+    <string name="txtKlasifikasiMenu">Klasifikasi</string>
+    <string name="txtHistoryMenu">History</string>
+    <string name="txtKlasifikasiMenuFull">Klasifikasi Kematangan Buah Tin</string>
+    <string name="image_of_tin">Gambar Buah Tin</string>
+    <string name="txtHasilKlasifikasi">Hasil Klasifikasi :</string>
+    <string name="addImageButton">Image button to add image</string>
+    <string name="txtAboutMenu">About</string>
+    <string name="judul_skripsi">Klasifikasi Kematangan Buah Tin Menggunakan Convolutional Neural Network (CNN) Berbasis Android</string>
+    <string-array name="list_tech">
+        <item>1. Java</item>
+        <item>2. Python</item>
+        <item>3. Tensorflow</item>
+    </string-array>
+</resources>

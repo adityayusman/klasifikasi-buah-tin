@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    tools:context="com.mysankato.klasifikasikematanganbuahtin.FragmentMenu.KlasifikasiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/txtKlasifikasiMenuFull"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_below="@id/txtTitle"
+                android:background="@color/green_main" />
+
+            <ImageView
+                android:id="@+id/imgTin"
+                android:layout_width="350dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="350dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/txtTitle"
+                android:contentDescription="@string/image_of_tin"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtHasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/imgTin"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/txtHasilKlasifikasi"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/txtHasil"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins_bold"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/addImgButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/hasil"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/add_image_button"
+                android:contentDescription="@string/addImageButton"
+                android:elevation="10dp"
+                android:src="@drawable/ic_add_image"
+                app:tint="@color/cload"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
